@@ -17,15 +17,15 @@ for mark in marks:
             if final_mark > 100:
                 final_mark = 100
         if final_mark >= 90:
-            print(str(mark) + " → Excellent (with increment)")
+            print(str(mark) + " → Excellent")
         elif final_mark >= 75:
-            print(str(mark) + " → Very Good (with increment)")
+            print(str(mark) + " → Very Good")
         elif final_mark >= 60:
-            print(str(mark) + " → Good (with increment)")
+            print(str(mark) + " → Good")
         elif final_mark >= 40:
-            print(str(mark) + " → Average (with increment)")
+            print(str(mark) + " → Average")
         else:
-            print(str(mark) + " → Fail (with increment)")
+            print(str(mark) + " → Fail")
             fail_count += 1
 print("Total Valid Students:", valid_count)
 print("Total Failed Students:", fail_count)
